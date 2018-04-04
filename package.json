@@ -1,0 +1,26 @@
+{
+  "name": "@double/eslint-config",
+  "description": "Double’s JavaScript Style - Extends JavaScript Standard Style",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pierre-Elie Fauché",
+    "email": "pe@withdouble.com"
+  },
+  "bugs": {
+    "url": "https://github.com/withDouble/eslint-config/issues"
+  },
+  "homepage": "https://github.com/withDouble/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/withDouble/eslint-config.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.18.0"
+  }
+}
