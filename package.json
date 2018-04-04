@@ -16,9 +16,11 @@
     "type": "git",
     "url": "git://github.com/withDouble/eslint-config.git"
   },
-  "devDependencies": {
-    "eslint": "^4.18.0",
+  "dependencies": {
     "eslint-config-standard": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0"
   },
   "peerDependencies": {
     "eslint": ">=4.18.0"
