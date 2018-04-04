@@ -1,13 +1,12 @@
 {
-  "extends": "standard",
+  "parser": "babel-eslint",
 
-  "rules": {
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline",
-      "imports": "never",
-      "exports": "never",
-      "functions": "never"
-    }]
-  }
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+
+  "plugins": [
+    "flowtype"
+  ]
 }
