@@ -1,7 +1,7 @@
 {
   "name": "@double/eslint-config",
   "description": "Double’s JavaScript Style - Extends JavaScript Standard Style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Pierre-Elie Fauché",
     "email": "pe@withdouble.com"
