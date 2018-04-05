@@ -2,11 +2,26 @@
   "parser": "babel-eslint",
 
   "extends": [
-    "airbnb",
+    "standard",
+    "standard-jsx",
     "plugin:flowtype/recommended"
   ],
 
   "plugins": [
     "flowtype"
-  ]
+  ],
+
+  "rules": {
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "always-multiline"
+    }],
+
+    "no-var": "error"
+  }
 }
