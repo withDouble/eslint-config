@@ -1,9 +1,9 @@
-# @double/eslint-config
+# @withdouble/eslint-config
 
 ## Install
 
 ```
-yarn add --dev git://github.com/withDouble/eslint-config.git
+yarn add --dev @withdouble/eslint-config
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ Add this to your .eslintrc file:
 
 ```json
 {
-  "extends": "@double"
+  "extends": "@withdouble"
 }
 ```
 
