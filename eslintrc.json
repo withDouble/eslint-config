@@ -9,6 +9,7 @@
   ],
 
   "plugins": [
+    "babel",
     "flowtype",
     "promise",
     "compat"
@@ -27,6 +28,14 @@
 
     "no-var": "error",
 
-    "compat/compat": "error"
+    "compat/compat": "error",
+
+    "new-cap": "off",
+    "no-unused-expressions": "off",
+    "quotes": "off",
+
+    "babel/new-cap": ["error", { "newIsCap": true, "capIsNew": false }],
+    "babel/no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true, "allowTaggedTemplates": true }],
+    "babel/quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }]
   }
 }
