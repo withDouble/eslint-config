@@ -3,7 +3,6 @@
 
   "extends": [
     "standard",
-    "standard-jsx",
     "standard-react",
     "plugin:flowtype/recommended",
     "plugin:promise/recommended"
