@@ -1,7 +1,7 @@
 {
   "name": "@withdouble/eslint-config",
   "description": "Double’s JavaScript Style",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "author": {
     "name": "Pierre-Elie Fauché",
     "email": "pierre-elie@withdouble.com"
