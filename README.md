@@ -3,7 +3,7 @@
 ## Install
 
 ```
-yarn add --dev @withdouble/eslint-config
+npm i -D @withdouble/eslint-config
 ```
 
 ## Usage
@@ -12,6 +12,14 @@ Add this to your .eslintrc file:
 
 ```json
 {
+  "extends": "@withdouble"
+}
+```
+
+or in your `package.json`:
+
+```json
+"eslintConfig": {
   "extends": "@withdouble"
 }
 ```
