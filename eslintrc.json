@@ -36,6 +36,8 @@
 
     "babel/new-cap": ["error", { "newIsCap": true, "capIsNew": false }],
     "babel/no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true, "allowTaggedTemplates": true }],
-    "babel/quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }]
+    "babel/quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+
+    "promise/catch-or-return": ["error", { "terminationMethod": ["catch", "asCallback", "finally"] }]
   }
 }
