@@ -46,6 +46,8 @@
       "args": "after-used",
       "vars": "all",
       "ignoreRestSiblings": true
-    }]
+    }],
+
+    "arrow-parens": ["error", "always"]
   }
 }
