@@ -48,6 +48,7 @@
     "react/jsx-no-literals": ["error", {
       "noStrings": false
     }],
+    "react/jsx-handler-names": "off",
 
     "no-unused-vars": ["error", {
       "args": "after-used",
