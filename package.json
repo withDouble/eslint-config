@@ -1,7 +1,7 @@
 {
   "name": "@withdouble/eslint-config",
   "description": "Double’s JavaScript Style",
-  "version": "2.3.0",
+  "version": "2.8.0",
   "author": {
     "name": "Pierre-Elie Fauché",
     "email": "pierre-elie@withdouble.com"
@@ -29,7 +29,7 @@
     "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-graphql": "^3.0.3",
     "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0"
