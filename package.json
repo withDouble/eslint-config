@@ -37,7 +37,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "./base/javascript"
+      "./base/javascript-extends",
+      "./base/javascript-rules"
     ]
   }
 }

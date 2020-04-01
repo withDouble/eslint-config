@@ -1,13 +1,4 @@
 module.exports = {
-  extends: [
-    'standard',
-    'plugin:promise/recommended',
-  ],
-
-  plugins: [
-    'promise',
-  ],
-
   rules: {
     'operator-linebreak': ['error', 'after', {
       overrides: {

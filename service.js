@@ -7,8 +7,10 @@ module.exports = {
   },
 
   extends: [
-    './base/javascript',
-    './base/typescript',
+    './base/javascript-extends',
+    './base/typescript-extends',
+    './base/javascript-rules',
+    './base/typescript-rules',
   ],
 
   parserOptions: {

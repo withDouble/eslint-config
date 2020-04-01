@@ -5,7 +5,8 @@ module.exports = {
   },
 
   extends: [
-    './base/javascript',
+    './base/javascript-extends',
+    './base/javascript-rules',
     './base/react',
     'plugin:@typescript-eslint/recommended',
     'prettier',

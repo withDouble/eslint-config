@@ -4,7 +4,8 @@ module.exports = {
   },
 
   extends: [
-    './base/javascript',
+    './base/javascript-extends',
+    './base/javascript-rules',
     './base/flow',
     './base/react',
   ],
