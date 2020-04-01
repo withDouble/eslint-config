@@ -9,6 +9,16 @@ module.exports = {
   ],
 
   rules: {
+    'operator-linebreak': ['error', 'after', {
+      overrides: {
+        '?': 'before',
+        ':': 'before',
+        '|>': 'before',
+        '&&': 'before',
+        '||': 'before',
+      },
+    }],
+
     'brace-style': ['error', 'stroustrup', {
       allowSingleLine: true,
     }],
