@@ -32,6 +32,8 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
     '@typescript-eslint/ban-ts-comment': 'warn',
 
+    '@typescript-eslint/await-thenable': 'warn',
+
     // Disable for all files, will be enabled by override below
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
