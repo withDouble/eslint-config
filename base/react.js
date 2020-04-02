@@ -20,4 +20,14 @@ module.exports = {
     }],
     'react/jsx-handler-names': 'off',
   },
+
+  overrides: [
+    {
+      files: ['**/*.tsx'],
+      rules: {
+        // https://github.com/yannickcr/eslint-plugin-react/issues/1461
+        'react/prop-types': 'off',
+      },
+    },
+  ],
 }
