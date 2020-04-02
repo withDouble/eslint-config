@@ -1,7 +1,7 @@
 {
   "name": "@withdouble/eslint-config",
   "description": "Double’s JavaScript Style",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "author": {
     "name": "Double Engineering",
     "email": "engineering@withdouble.com"
