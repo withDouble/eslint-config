@@ -34,6 +34,9 @@ module.exports = {
 
     '@typescript-eslint/await-thenable': 'warn',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
+
     // Disable for all files, will be enabled by override below
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
