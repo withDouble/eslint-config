@@ -6,6 +6,7 @@ module.exports = {
     '@typescript-eslint/brace-style': ['error', 'stroustrup', {
       allowSingleLine: true,
     }],
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error', {
       args: 'after-used',
       vars: 'all',
