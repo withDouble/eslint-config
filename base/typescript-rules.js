@@ -18,6 +18,9 @@ module.exports = {
     '@typescript-eslint/no-unsafe-return': 'warn',
     '@typescript-eslint/no-unsafe-call': 'warn',
 
+    // Try to fix undefined rule
+    '@typescript-eslint/camelcase': 'off',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
