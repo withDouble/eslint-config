@@ -13,9 +13,6 @@ module.exports = {
       ignoreRestSiblings: true,
     }],
 
-    // Try to fix missing rule
-    camelcase: 'off',
-
     '@typescript-eslint/no-unsafe-assignment': 'warn',
     '@typescript-eslint/no-unsafe-member-access': 'warn',
     '@typescript-eslint/no-unsafe-return': 'warn',
