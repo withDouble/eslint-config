@@ -62,5 +62,14 @@ module.exports = {
       // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md
       '@typescript-eslint/no-var-requires': 'warn',
     },
+  }, {
+    // Rules specifically for Javascript files
+    files: ['*.js', '*.jsx'],
+    rules: {
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off',
+      '@typescript-eslint/no-unsafe-call': 'off',
+    },
   }],
 }
