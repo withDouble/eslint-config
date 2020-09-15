@@ -19,5 +19,6 @@ module.exports = {
       vars: 'all',
       ignoreRestSiblings: true,
     }],
+    '@typescript-eslint/explicit-function-return-type': 0,
   },
 }
