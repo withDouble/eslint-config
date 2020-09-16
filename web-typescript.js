@@ -20,5 +20,6 @@ module.exports = {
       ignoreRestSiblings: true,
     }],
     '@typescript-eslint/explicit-function-return-type': 0,
+    'flowtype/no-types-missing-file-annotation': 0,
   },
 }
