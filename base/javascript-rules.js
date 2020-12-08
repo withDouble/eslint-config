@@ -27,6 +27,8 @@ module.exports = {
     'new-cap': 'off',
     'no-unused-expressions': 'off',
 
+    'multiline-ternary': 'off',
+
     'promise/catch-or-return': ['error', {
       terminationMethod: ['catch', 'asCallback', 'finally'],
     }],
