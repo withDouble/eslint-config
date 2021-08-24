@@ -41,5 +41,14 @@ module.exports = {
 
     'arrow-parens': ['error', 'always'],
     'arrow-body-style': ['error', 'as-needed'],
+
+    'max-len': ['error', {
+      tabWidth: 2,
+      ignoreTrailingComments: true,
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true,
+    }]
   },
 }
