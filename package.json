@@ -16,27 +16,14 @@
     "url": "git://github.com/withDouble/eslint-config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-config-standard-react": "^11.0.1",
-    "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-compat": "^3.13.0",
-    "eslint-plugin-flowtype": "^5.9.0",
-    "eslint-plugin-graphql": "^4.0.0",
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-standard": "^5.0.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "./base/javascript-extends",
-      "./base/javascript-rules"
-    ]
+    "@typescript-eslint/parser": "^5.47.1",
+    "@typescript-eslint/utils": "^5.47.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-custom-rules": "file:custom-eslint-rules",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.9.4"
   }
 }
