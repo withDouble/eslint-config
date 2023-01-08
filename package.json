@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.47.1",
-    "@withdouble/eslint-plugin-custom-rules": "^1.0.0",
+    "@withdouble/eslint-plugin-custom-rules": "^1.0.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
