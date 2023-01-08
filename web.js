@@ -4,7 +4,6 @@ module.exports = {
     "@typescript-eslint",
     "react-hooks",
     "promise",
-    "@withdouble/eslint-plugin-custom-rules",
     "react"
   ],
   extends: [
@@ -40,9 +39,6 @@ module.exports = {
     "promise/prefer-await-to-then": "error",
     "react/jsx-key": ["error", { "checkFragmentShorthand": true }],
     "react/jsx-curly-brace-presence": ["error", "always"],
-
-    // custom rules
-    "custom-rules/lowercase-first-declarations": "error",
   },
   env: {
     "browser": true
