@@ -4,7 +4,7 @@ module.exports = {
     "@typescript-eslint",
     "react-hooks",
     "promise",
-    "custom-rules",
+    "@withdouble/eslint-plugin-custom-rules",
     "react"
   ],
   extends: [
