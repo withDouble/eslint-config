@@ -5,7 +5,14 @@ Double’s central ESLint config
 ## Install
 
 ```
-npm i -D @withdouble/eslint-config eslint
+npm i -D \
+  @withdouble/eslint-config \
+  @typescript-eslint/eslint-plugin \
+  eslint \
+  eslint-plugin-prettier \
+  eslint-plugin-promise \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks
 ```
 
 ## Usage
