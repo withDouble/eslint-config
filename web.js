@@ -34,7 +34,10 @@ module.exports = {
     ],
 
     // plugin rules
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "varsIgnorePattern": "^_",
+      "argsIgnorePattern": "^_"
+    }],
     "@typescript-eslint/array-type": ["error", { "default": "array" }],
     "promise/prefer-await-to-then": "error",
     "react/jsx-key": ["error", { "checkFragmentShorthand": true }],
