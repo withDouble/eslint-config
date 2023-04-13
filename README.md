@@ -11,6 +11,7 @@ npm i -D \
   eslint \
   eslint-plugin-prettier \
   eslint-plugin-promise \
+  <!-- Only install the following if you're using eslint-config/web -->
   eslint-plugin-react \
   eslint-plugin-react-hooks
 ```
