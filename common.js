@@ -33,6 +33,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/array-type": ["error", { default: "array" }],
+    "@typescript-eslint/consistent-type-imports": "error",
     "promise/prefer-await-to-then": "error",
   },
 };
